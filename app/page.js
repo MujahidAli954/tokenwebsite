@@ -1,9 +1,14 @@
-import Image from "next/image";
 
+import Image from "next/image";
+import Faq from "./Faqs/page";
+import Team from './Team/page'
+import Community from './Community/page'
+import Footer from'./Footer/page'
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>hello Fiazan Chutiye bharwy ghareeb kaam py aaa</h1>
+    <main className="">
+    <Footer/>
+     
     </main>
   );
 }
