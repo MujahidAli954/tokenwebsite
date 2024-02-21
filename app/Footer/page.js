@@ -1,5 +1,5 @@
 import React from "react";
-import telegram from '../Community/Img/telegram.png'
+
 export default function(){
     return(<>
     <div className=" mx-auto">
@@ -7,7 +7,7 @@ export default function(){
         <li>
     <a href="https://t.me/PuppyLoveCoin">
           <div className=" text-center w-full md:w-[162px] h-[162px] rounded-[24px] p-[32px] bg-blend-color-burn bg-primary-vdark ">
-            <img src={telegram} class=" w-[48px] h-[48px] mx-auto "/>
+            <img src="Telegram.png" class=" w-[48px] h-[48px] mx-auto "/>
             <h2 className=" f-f-sm text-white text-lg mt-5 ">Telegram</h2>
             </div>
           </a>
@@ -15,7 +15,7 @@ export default function(){
           <li>
           <a href="https://twitter.com/PuppyLoveCoin">
             <div className=" text-center w-full md:w-[162px] h-[162px] rounded-[24px] p-[32px] bg-primary-vdark ">
-            <img src="/static/media/Twitter - Original.a71c1b2d1b5dc7c2c5b1812e0440c31d.svg" className=" w-[48px] h-[48px] mx-auto "/>
+            <img src="Twitter.png" className=" w-[48px] h-[48px] mx-auto "/>
             <h2 className=" f-f-sm text-white text-lg mt-5 ">Twitter</h2>
           </div>
           </a>
