@@ -9,7 +9,7 @@ const page = () => {
       <div className='relative  sm:py-[96px] py-[64px] '>
         <div className=" w-[91%] lg:max-w-[785px] mx-auto">
       <h2  className=' font-medium text-3xl md:text-4xl  text-center text-orange-500'  >Community</h2>
-      <p className=" text-grey-dark f-f-m text-base text-center ">Join the fast growing PuppyLove Army.</p>
+      <p className=" text-grey-dark f-f-m text-base text-center ">Join the fast growing NimbiToken Army.</p>
       <div className=" grid grid-cols-12 md:gap-4 
  mt-[64px]  items-center">
 <div className=" col-span-12 md:col-span-6  hidden md:block">
@@ -20,7 +20,7 @@ const page = () => {
 <div className=" col-span-12 md:col-span-6 ">
 <div className=" grid grid-cols-12 items-center  md:gap-7 gap-6  ">
 <div className=" col-span-6  ">
-<a href="https://t.me/PuppyLoveCoin">
+<a href="https://t.me/NimbiTokenCoin">
 <div className=" text-center w-full  md:w-[140px] w-[162px] h-[162px] 
 rounded-[24px] p-[32px]   bg-neutral-800  ">
 <img src="Telegram.png"
@@ -28,7 +28,7 @@ rounded-[24px] p-[32px]   bg-neutral-800  ">
 <h2 className=" f-f-sm text-white text-lg mt-5 ">Telegram</h2>
 </div></a></div>
 <div className=" col-span-6   ">
-<a href="https://twitter.com/PuppyLoveCoin">
+<a href="https://twitter.com/NimbiTokenCoin">
 <div className=" text-center w-full
  md:w-[140px] w-[162px] h-[162px] rounded-[24px] p-[32px]
  bg-neutral-800 ">
