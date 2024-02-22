@@ -8,6 +8,8 @@ import Header  from "./header/page";
 import Feature from "./features/page";
 import Tokennomics from "./Tokennomics/Tokennomics";
 import Faqs from "./Faqs/faqs"
+import Mission from "./Mission/mission"
+import Roadmap from "./Roadmap/Roadmap";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -15,10 +17,13 @@ export default function Home() {
       <Header/>
       <Feature/>
       <Tokennomics/>
-      <Faqs/>
       <Team/>
       <Community/>
-      <Footer/>
+       <Mission/> 
+      <Roadmap/>
+      <Faqs/>
+      <Footer/> 
+      
    
 
     </main>
