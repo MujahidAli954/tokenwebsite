@@ -49,8 +49,8 @@ const Faq = () => {
       </div>
       <FaqItem 
         index={0}
-        question="What Is PuppyLove ($PuppyLove)?"
-        answer="PuppyLove is based on a fictional story of family of parent dogs and their 
+        question="What Is NimbiToken ($NimbiToken)?"
+        answer="NimbiToken is based on a fictional story of family of parent dogs and their 
         puppies, who were happily living in a kingdom called Koja, until misfortune happened and the family
          were left without their parents that were captured in a raid, leaving the puppies abandoned. This led
           to a decision by puppies to join humans who captured their parents, eventually finding safe homes with humans,
@@ -62,10 +62,10 @@ const Faq = () => {
       />
       <FaqItem
         index={1}
-        question="What Is The Future Roadmap For PuppyLove?"
-        answer="PuppyLove has put forward a number of proposal aimed at 
+        question="What Is The Future Roadmap For NimbiToken?"
+        answer="NimbiToken has put forward a number of proposal aimed at 
         achieving its objective - from having an onlinebased resesrch and development 
-        hub where blockchain developers and likes that are within puppylove community and beyond,
+        hub where blockchain developers and likes that are within NimbiToken community and beyond,
          can assemble, research and build utilities aimed at empowering humans. To having NFT unique to the 
          project, to Merchandise, PuppyVerse, Dex, etc. Also a focuse on charitable causes to support dogs, puppies 
          and children."
@@ -75,8 +75,8 @@ const Faq = () => {
       
       <FaqItem
         index={2}
-        question="How Can I Buy $PuppyLove"
-        answer="Simply click Buy $PuppyLove, It will lead you to a DEX (Uniswap), 
+        question="How Can I Buy $NimbiToken"
+        answer="Simply click Buy $NimbiToken, It will lead you to a DEX (Uniswap), 
         Choose the amount of ETH to swap, set the tax to auto or to 0.00 and swap. 
         You can also chat with the community verified mods to assist."
         openedIndex={openedIndex}
@@ -84,7 +84,7 @@ const Faq = () => {
       />
       <FaqItem
         index={3}
-        question="How Can I Stake $PuppyLove? "
+        question="How Can I Stake $NimbiToken? "
         answer="Staking is not live yet, The community will decide when to initiate this and a 
         formal announcement will be made after the decision, including on the launch date."
         openedIndex={openedIndex}
@@ -92,8 +92,8 @@ const Faq = () => {
       />
       <FaqItem
         index={4}
-        question="How Can I Get Involved And Support The PuppyLove Community?"
-        answer="Engage with the community on social media, help spread the word and together, puppylove as a community
+        question="How Can I Get Involved And Support The NimbiToken Community?"
+        answer="Engage with the community on social media, help spread the word and together, NimbiToken as a community
          can be a force aimed at community holders and human empowerment and support to causes supporting animals, dogs
           and human kids."
         openedIndex={openedIndex}
@@ -101,8 +101,8 @@ const Faq = () => {
       />
       <FaqItem
         index={5}
-        question="Does PuppyLove Support Charitable Causes? "
-        answer="Absolutely, PuppyLove is committed to giving back to the community.
+        question="Does NimbiToken Support Charitable Causes? "
+        answer="Absolutely, NimbiToken is committed to giving back to the community.
          A portion of the project is targeted towards charitable initiatives, such as 
          supporting puppy shelters, dogs and children charities."
         openedIndex={openedIndex}

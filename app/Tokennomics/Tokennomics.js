@@ -4,7 +4,7 @@ const ProgressBar = ({ label, percentage }) => {
     return (
       <div className="mb-4">
         <p className="font-semibold">{label}</p>
-        <div className="h-4 bg-gray-300 rounded-full">
+        <div className="h-2 bg-gray-300 rounded-full">
           <div className="h-full bg-blue-500 rounded-full" style={{ width: `${percentage}%` }}></div>
         </div>
       </div>
@@ -50,9 +50,9 @@ const ProgressBar = ({ label, percentage }) => {
           transform={`rotate(-90 ${radius} ${radius})`}
         />
       <text className='text-wrap' x="50%" y="50%" textAnchor="middle" fill="#FFFFFF">
-  <tspan x="50%" dy="-1.2em" className='text-white block'>Current Supply: {totalSupply}%</tspan>
-  <tspan x="50%" dy="1.2em" className='text-white block'>Total Supply: 1 Trillion</tspan>
-  <tspan x="50%" dy="1.2em" className='text-red-500 block'>Burn Supply: {burnSupply}%</tspan>
+  <tspan x="50%" dy="-1.2em" className='block text-xs mb-8'fill='red'>Current Supply: {totalSupply}%</tspan>
+  <tspan x="50%" dy="1.2em" className='text-white block text-sm '>Total Supply: 1 Trillion</tspan>
+  <tspan x="50%" dy="1.2em" className='text-orange-400 block text-xs' fill="orange">Burn Supply: {burnSupply}%</tspan>
 </text>
 
       </svg>
@@ -70,9 +70,9 @@ const Tokennomics = () => {
 </p>
 <p className='text-center'>$Nimbi is designed to be deflationary. 40% of total supply will be burned at launch.</p>
 <div className="container mx-auto p-4 bg-gray-800 rounded-md">
-  <h1 className="text-2xl font-semibold mb-4">Token Metrics</h1>
+  <h1 className="text-2xl font-semibold mb-4 text-center">Token Metrics</h1>
   <div className="flex">
-    <div className="w-1/2 mr-4">
+    <div className="w-1/2 pl-12 pt-12">
       <CircularProgressBar totalSupply={totalSupply} burnSupply={burnSupply} />
     </div>
     <div className="w-1/2">
